@@ -18,7 +18,21 @@ class Movie
         $this->duration = $duration;
         $this->year = $year;
         $this->language = $language;
+
+        foreach ($actors as $actor) {
+            if (!$actor instanceof Actor) {
+                die("L'oggetto deve essere del tipo di Actor");
+            }
+        };
         $this->actors = $actors;
+
+        foreach ($genres as $genre) {
+            if (!$genre instanceof Genre) {
+                die("L'oggetto deve essere del tipo di Genre");
+            }
+        };
         $this->genres = $genres;
+
+        self::$counter += 1;
     }
 }
