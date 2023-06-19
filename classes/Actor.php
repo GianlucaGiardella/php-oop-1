@@ -21,7 +21,7 @@ class Actor
     }
 
 
-    public function getActorRole($role = "nel ruolo di: ")
+    public function get_actor_role($role = "nel ruolo di: ")
     {
         return $this->name . " " . $role . " " . $this->movie_name;
     }
