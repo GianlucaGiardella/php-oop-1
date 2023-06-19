@@ -17,9 +17,25 @@ include __DIR__ . "/data.php";
 
 <body>
     <div class="container">
-        <ul><?php
+        <ul>
+            <li><strong>Movies:</strong></li>
+            <?php
             foreach ($movies as $movie) { ?>
-            <li><?= $movie->title . $movie->year . $movie->language . $movie->duration ?></li>
+            <li><?= $movie->title  ?></li>
+            <li><?= $movie->year ?></li>
+            <li><?= $movie->language ?></li>
+            <li><?= $movie->duration ?></li>
+            <li>
+                <ul>
+                    <li>
+                        <strong>Actors:</strong>
+                    </li>
+                    <?php foreach ($movie->actors as $actor) { ?>
+                    <li><?= $actor->get_actor_role() ?></li>
+                    <?php } ?>
+                </ul>
+            </li>
+            <hr>
             <?php } ?>
         </ul>
     </div>
