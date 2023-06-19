@@ -16,4 +16,9 @@ class Actor
         $this->gender = $gender;
         $this->adult = $adult;
     }
+
+    public function getActorRole($role = "nel ruolo di: ")
+    {
+        return $this->name . " " . $role . " " . $this->movie_name;
+    }
 }
