@@ -19,7 +19,7 @@ include __DIR__ . "/data.php";
     <div class="container">
         <ul><?php
             foreach ($movies as $movie) { ?>
-            <li><?= $movie->title . $movie->year . $movie->language ?></li>
+            <li><?= $movie->title . $movie->year . $movie->language . $movie->duration ?></li>
             <?php } ?>
         </ul>
     </div>
