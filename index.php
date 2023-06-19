@@ -17,9 +17,10 @@ include __DIR__ . "/data.php";
 
 <body>
     <div class="container">
+        <h2>Movies:</h2>
+        <hr>
         <?php
         foreach ($movies as $movie) { ?>
-        <h2>Movies:</h2>
         <ul>
             <li><?= $movie->title  ?></li>
             <li><?= $movie->year ?></li>
@@ -41,9 +42,9 @@ include __DIR__ . "/data.php";
                     <?php } ?>
                 </ul>
             </li>
-            <hr>
-            <?php } ?>
         </ul>
+        <hr>
+        <?php } ?>
     </div>
 </body>
 
