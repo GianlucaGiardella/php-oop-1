@@ -12,15 +12,15 @@ $movies = [
             new Actor(6002, "Michael Caine", "Alfred Pennyworth", 1, true),
             new Actor(6003, "Morgan Freeman", "Lucius Fox", 1, true),
             new Actor(6004, "Katie Holmes", "Rachel Dawes", 2, true),
-            new Actor(6004, "Cillian Murphy", "Spaventapasseri", 1, true),
-            new Actor(6004, "Liam Nesson", "Henri Ducard", 1, true),
+            new Actor(6005, "Cillian Murphy", "Spaventapasseri", 1, true),
+            new Actor(6006, "Liam Nesson", "Henri Ducard", 1, true),
         ],
         [
             new Genre(4001, "Azione"),
             new Genre(4002, "Avventura"),
             new Genre(4003, "Fantastico"),
-            new Genre(4003, "Thriller"),
-            new Genre(4003, "Drammatico")
+            new Genre(4004, "Thriller"),
+            new Genre(4005, "Drammatico")
         ]
     ),
     new Movie(
@@ -41,8 +41,8 @@ $movies = [
             new Genre(4001, "Azione"),
             new Genre(4002, "Avventura"),
             new Genre(4003, "Fantastico"),
-            new Genre(4003, "Thriller"),
-            new Genre(4003, "Drammatico")
+            new Genre(4004, "Thriller"),
+            new Genre(4005, "Drammatico")
         ]
     ),
     new Movie(
@@ -57,14 +57,14 @@ $movies = [
             new Actor(6003, "Morgan Freeman", "Lucius Fox", 1, true),
             new Actor(6322, "Tom Hardy", "Bane", 1, true),
             new Actor(6250, "Marion Cotillard", "Miranda Tate", 2, true),
-            new Actor(6350, "Joseph Gordon-Levitt", "Jhon Blake", 1, true),
+            new Actor(6370, "Joseph Gordon-Levitt", "Jhon Blake", 1, true),
         ],
         [
             new Genre(4001, "Azione"),
             new Genre(4002, "Avventura"),
             new Genre(4003, "Fantastico"),
-            new Genre(4003, "Thriller"),
-            new Genre(4003, "Drammatico")
+            new Genre(4004, "Thriller"),
+            new Genre(4005, "Drammatico")
         ]
     )
 ];
