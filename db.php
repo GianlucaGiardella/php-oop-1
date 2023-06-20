@@ -6,7 +6,7 @@ $movies = [
         "Batman Begins",
         140,
         2005,
-        "english",
+        "Inglese",
         [
             new Actor(6001, "Christian Bale", "Bruce Wayne", 1, true),
             new Actor(6002, "Michael Caine", "Alfred Pennyworth", 1, true),
@@ -28,7 +28,7 @@ $movies = [
         "Il cavaliere oscuro",
         152,
         2008,
-        "english",
+        "Inglese",
         [
             new Actor(6001, "Christian Bale",  "Bruce Wayne", 1, true),
             new Actor(6029, "Heath Ledger", "Joker", 1, true),
@@ -50,7 +50,7 @@ $movies = [
         "Il cavaliere oscuro - Il ritorno",
         164,
         2012,
-        "english",
+        "Inglese",
         [
             new Actor(6001, "Christian Bale",  "Bruce Wayne", 1, true),
             new Actor(6321, "Anne Hathaway", "Catwoman", 2, true),
