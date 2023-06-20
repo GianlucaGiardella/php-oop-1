@@ -1,8 +1,8 @@
 <?php
-include __DIR__ . "/classes/Movie.php";
-include __DIR__ . "/classes/Actor.php";
-include __DIR__ . "/classes/Genre.php";
-include __DIR__ . "/data.php";
+include __DIR__ . "/models/Movie.php";
+include __DIR__ . "/models/Actor.php";
+include __DIR__ . "/models/Genre.php";
+include __DIR__ . "/db.php";
 ?>
 
 <!DOCTYPE html>
